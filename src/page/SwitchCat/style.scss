@@ -1,0 +1,31 @@
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  &_btn {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4d9335;
+    color: white;
+    font-size: 30px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #3a7028;
+    }
+
+    &:active {
+      background-color: #224716;
+    }
+
+    &:disabled {
+      background-color: #101f0b;
+      cursor: auto;
+    }
+  }
+}
