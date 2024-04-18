@@ -1,1 +1,2 @@
-# cat
+# npm install
+# npm run start
